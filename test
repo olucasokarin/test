@@ -1,0 +1,261 @@
+WEBVTT
+
+1
+00:00:01.130 --> 00:00:02.220
+Olá Clouds,
+
+2
+00:00:02.220 --> 00:00:06.120
+e bem-vindo à minha lição sobre o que é a AWS.
+
+3
+00:00:06.120 --> 00:00:09.440
+Cobrimos isso muito brevemente na palestra de introdução,
+
+4
+00:00:09.440 --> 00:00:11.793
+agora vamos detalhar um pouco mais.
+
+5
+00:00:12.830 --> 00:00:15.300
+Se começarmos com a própria nuvem,
+
+6
+00:00:15.300 --> 00:00:18.670
+a nuvem pode ser amplamente referida como a de outra pessoa
+
+7
+00:00:18.670 --> 00:00:22.130
+computador, mas mais realisticamente é uma coleção
+
+8
+00:00:22.130 --> 00:00:25.450
+de serviços que criam uma plataforma.
+
+9
+00:00:25.450 --> 00:00:28.770
+Esses serviços podem estar relacionados a servidores virtuais,
+
+10
+00:00:28.770 --> 00:00:32.300
+armazenamento de dados, rede, aprendizado de máquina,
+
+11
+00:00:32.300 --> 00:00:37.300
+segurança, análises, serviços de mídia, bancos de dados e muito mais.
+
+12
+00:00:38.140 --> 00:00:41.740
+Todos esses serviços vêm com um conjunto de recursos muito específico
+
+13
+00:00:41.740 --> 00:00:44.830
+visa facilitar a vida da sua organização
+
+14
+00:00:44.830 --> 00:00:46.320
+hospedando-os para você,
+
+15
+00:00:46.320 --> 00:00:48.930
+em vez de você ter que fazer isso sozinho
+
+16
+00:00:48.930 --> 00:00:52.370
+em sua própria sala de servidores ou prédio de escritórios.
+
+17
+00:00:52.370 --> 00:00:53.970
+Você pode escolher onde, no mundo,
+
+18
+00:00:53.970 --> 00:00:57.470
+você deseja executar esses serviços e acessá-los remotamente.
+
+19
+00:00:57.470 --> 00:01:01.250
+E você pode ajustá-los para fazer o que você precisar,
+
+20
+00:01:01.250 --> 00:01:03.270
+e você pode pagar menos do que normalmente pagaria
+
+21
+00:01:03.270 --> 00:01:05.430
+hospedando-o você mesmo.
+
+22
+00:01:05.430 --> 00:01:07.400
+Como mencionei em nossa introdução,
+
+23
+00:01:07.400 --> 00:01:10.250
+se você quiser saber mais sobre o que é a nuvem
+
+24
+00:01:10.250 --> 00:01:12.060
+por favor, confira meu link de recurso
+
+25
+00:01:12.060 --> 00:01:15.600
+ao nosso curso de introdução à computação em nuvem.
+
+26
+00:01:15.600 --> 00:01:19.600
+Em suas próprias palavras, "AWS é a solução mais abrangente do mundo
+
+27
+00:01:19.600 --> 00:01:22.570
+"e plataforma de nuvem amplamente adotada,
+
+28
+00:01:22.570 --> 00:01:26.610
+"oferecendo mais de 175 serviços completos
+
+29
+00:01:26.610 --> 00:01:28.470
+"de centros de dados globalmente.
+
+30
+00:01:28.470 --> 00:01:29.720
+"Milhões de clientes,
+
+31
+00:01:29.720 --> 00:01:31.970
+"incluindo as startups de crescimento mais rápido,
+
+32
+00:01:31.970 --> 00:01:35.390
+"maiores empresas e principais agências governamentais
+
+33
+00:01:35.390 --> 00:01:37.930
+"estão usando a AWS para reduzir custos,
+
+34
+00:01:37.930 --> 00:01:41.320
+"tornar-se mais ágil e inovar mais rapidamente."
+
+35
+00:01:41.320 --> 00:01:43.454
+E eu concordo com a avaliação deles.
+
+36
+00:01:43.454 --> 00:01:47.240
+Atualmente, a AWS detém cerca de 32% da computação em nuvem
+
+37
+00:01:47.240 --> 00:01:49.660
+participação de mercado, com segundo e terceiro lugar
+
+38
+00:01:49.660 --> 00:01:54.099
+indo para Microsoft Azure, aos 19, e Google Cloud, às sete.
+
+39
+00:01:54.099 --> 00:01:57.190
+A AWS é líder mundial em computação em nuvem,
+
+40
+00:01:57.190 --> 00:02:00.660
+com milhões de clientes usando seus produtos.
+
+41
+00:02:00.660 --> 00:02:02.300
+Mas por que eles são o líder?
+
+42
+00:02:02.300 --> 00:02:04.610
+Bem, eles são os mais antigos do mercado.
+
+43
+00:02:04.610 --> 00:02:07.900
+Eles lançaram Amazon EC2, seu serviço de serviço virtual,
+
+44
+00:02:07.900 --> 00:02:10.860
+em 2006, e levou vários anos
+
+45
+00:02:10.860 --> 00:02:14.280
+antes que qualquer outro concorrente da Cloud respondesse.
+
+46
+00:02:14.280 --> 00:02:17.930
+Eles continuam iterando e lançando novos serviços, agora,
+
+47
+00:02:17.930 --> 00:02:22.420
+onde atualmente possuem mais de 175 serviços.
+
+48
+00:02:22.420 --> 00:02:24.420
+Então vamos dar uma olhada.
+
+49
+00:02:24.420 --> 00:02:27.100
+Esta é a lista da maioria dos seus serviços.
+
+50
+00:02:27.100 --> 00:02:29.400
+Não tenho dúvidas de que muitos foram lançados
+
+51
+00:02:29.400 --> 00:02:31.700
+desde que esta lista foi compilada.
+
+52
+00:02:31.700 --> 00:02:34.210
+Esses serviços foram criados especificamente
+
+53
+00:02:34.210 --> 00:02:37.330
+para apoiar uma ampla gama de tecnologias, indústrias,
+
+54
+00:02:37.330 --> 00:02:40.340
+e casos de uso de um único serviço,
+
+55
+00:02:40.340 --> 00:02:42.870
+que permite armazenar arquivos e recuperá-los,
+
+56
+00:02:42.870 --> 00:02:44.910
+para uma Estação Terrestre totalmente gerenciada,
+
+57
+00:02:44.910 --> 00:02:47.130
+que permite controlar satélites.
+
+58
+00:02:47.130 --> 00:02:48.970
+E eu não estou brincando sobre esse último.
+
+59
+00:02:48.970 --> 00:02:53.970
+A AWS lançou o AWS Ground Station para o mundo em maio de 2019.
+
+60
+00:02:54.390 --> 00:02:58.140
+Portanto, uma base de clientes muito grande, muitos serviços,
+
+61
+00:02:58.140 --> 00:03:00.530
+que você pode fazer quase tudo que você precisa,
+
+62
+00:03:00.530 --> 00:03:03.560
+você pode ver por que o mundo está migrando para a AWS.
+
+63
+00:03:03.560 --> 00:03:06.180
+E uma coisa que ainda nem mencionei é o preço.
+
+64
+00:03:06.180 --> 00:03:09.160
+A AWS usa preços pré-pagos.
+
+65
+00:03:09.160 --> 00:03:11.360
+Você pode usar um de seus servidores por um minuto
