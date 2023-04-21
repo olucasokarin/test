@@ -1,261 +1,705 @@
 WEBVTT
 
 1
-00:00:01.130 --> 00:00:02.220
-Olá Clouds,
+00:00:00.200 --> 00:00:01.970
+<v Instrutor>Ok, olá Cloud</v>
 
 2
-00:00:02.220 --> 00:00:06.120
-e bem-vindo à minha lição sobre o que é a AWS.
+00:00:01.970 --> 00:00:03.280
+e bem-vindo a esta palestra.
 
 3
-00:00:06.120 --> 00:00:09.440
-Cobrimos isso muito brevemente na palestra de introdução,
+00:00:03.280 --> 00:00:05.120
+Nesta palestra, veremos como
 
 4
-00:00:09.440 --> 00:00:11.793
-agora vamos detalhar um pouco mais.
+00:00:05.120 --> 00:00:08.710
+você pode aprender AWS colocando a mão na massa.
 
 5
-00:00:12.830 --> 00:00:15.300
-Se começarmos com a própria nuvem,
+00:00:08.710 --> 00:00:10.440
+Então, por que se preocupar em colocar as mãos na massa?
 
 6
-00:00:15.300 --> 00:00:18.670
-a nuvem pode ser amplamente referida como a de outra pessoa
+00:00:10.440 --> 00:00:11.994
+Por que não se ater apenas a toda a teoria?
 
 7
-00:00:18.670 --> 00:00:22.130
-computador, mas mais realisticamente é uma coleção
+00:00:11.994 --> 00:00:15.550
+Bem, por um lado, isso bloqueia absolutamente o aprendizado.
 
 8
-00:00:22.130 --> 00:00:25.450
-de serviços que criam uma plataforma.
+00:00:15.550 --> 00:00:17.650
+Você realmente não pode aprender a AWS profundamente a menos que tenha
 
 9
-00:00:25.450 --> 00:00:28.770
-Esses serviços podem estar relacionados a servidores virtuais,
+00:00:17.650 --> 00:00:19.360
+realmente está usando.
 
 10
-00:00:28.770 --> 00:00:32.300
-armazenamento de dados, rede, aprendizado de máquina,
+00:00:19.360 --> 00:00:21.290
+Isso é especialmente bom para pessoas que preferem
 
 11
-00:00:32.300 --> 00:00:37.300
-segurança, análises, serviços de mídia, bancos de dados e muito mais.
+00:00:21.290 --> 00:00:23.510
+aprendizado prático, mas algum trabalho prático
 
 12
-00:00:38.140 --> 00:00:41.740
-Todos esses serviços vêm com um conjunto de recursos muito específico
+00:00:23.510 --> 00:00:24.599
+é praticamente necessário para todos
 
 13
-00:00:41.740 --> 00:00:44.830
-visa facilitar a vida da sua organização
+00:00:24.599 --> 00:00:26.590
+que quer aprender AWS.
 
 14
-00:00:44.830 --> 00:00:46.320
-hospedando-os para você,
+00:00:26.590 --> 00:00:28.040
+Além disso, há valor no mundo real
 
 15
-00:00:46.320 --> 00:00:48.930
-em vez de você ter que fazer isso sozinho
+00:00:28.040 --> 00:00:30.182
+em ter experiência usando AWS.
 
 16
-00:00:48.930 --> 00:00:52.370
-em sua própria sala de servidores ou prédio de escritórios.
+00:00:30.182 --> 00:00:32.125
+Quero dizer o ponto desta certificação em primeiro lugar
 
 17
-00:00:52.370 --> 00:00:53.970
-Você pode escolher onde, no mundo,
+00:00:32.125 --> 00:00:34.341
+é ter certeza de que você sabe o que está fazendo.
 
 18
-00:00:53.970 --> 00:00:57.470
-você deseja executar esses serviços e acessá-los remotamente.
+00:00:34.341 --> 00:00:37.300
+Também é empoderador ver quanta computação incrível
 
 19
-00:00:57.470 --> 00:01:01.250
-E você pode ajustá-los para fazer o que você precisar,
+00:00:37.300 --> 00:00:39.680
+capacidade que temos por meio da AWS.
 
 20
-00:01:01.250 --> 00:01:03.270
-e você pode pagar menos do que normalmente pagaria
+00:00:39.680 --> 00:00:42.190
+E, claro, é recomendado pela AWS.
 
 21
-00:01:03.270 --> 00:01:05.430
-hospedando-o você mesmo.
+00:00:42.190 --> 00:00:44.550
+Eles afirmam especificamente, "a melhor preparação
 
 22
-00:01:05.430 --> 00:01:07.400
-Como mencionei em nossa introdução,
+00:00:44.550 --> 00:00:47.342
+para exames de certificação é experiência prática."
 
 23
-00:01:07.400 --> 00:01:10.250
-se você quiser saber mais sobre o que é a nuvem
+00:00:47.342 --> 00:00:49.340
+Então, vamos dar uma olhada no nível gratuito.
 
 24
-00:01:10.250 --> 00:01:12.060
-por favor, confira meu link de recurso
+00:00:49.340 --> 00:00:52.463
+O nível gratuito permite o uso gratuito dos serviços da AWS,
 
 25
-00:01:12.060 --> 00:01:15.600
-ao nosso curso de introdução à computação em nuvem.
+00:00:52.463 --> 00:00:55.260
+o suficiente para experimentar os serviços.
 
 26
-00:01:15.600 --> 00:01:19.600
-Em suas próprias palavras, "AWS é a solução mais abrangente do mundo
+00:00:55.260 --> 00:00:56.860
+Isso é efetivamente um desconto de faturamento
 
 27
-00:01:19.600 --> 00:01:22.570
-"e plataforma de nuvem amplamente adotada,
+00:00:56.860 --> 00:00:59.410
+que é aplicado automaticamente a todas as novas contas.
 
 28
-00:01:22.570 --> 00:01:26.610
-"oferecendo mais de 175 serviços completos
+00:00:59.410 --> 00:01:01.690
+No entanto, esteja ciente de que, como o faturamento consolidado
 
 29
-00:01:26.610 --> 00:01:28.470
-"de centros de dados globalmente.
+00:01:01.690 --> 00:01:03.070
+significa que você recebe apenas uma conta,
 
 30
-00:01:28.470 --> 00:01:29.720
-"Milhões de clientes,
+00:01:03.070 --> 00:01:05.920
+você também recebe apenas um desconto para o nível gratuito.
 
 31
-00:01:29.720 --> 00:01:31.970
-"incluindo as startups de crescimento mais rápido,
+00:01:05.920 --> 00:01:08.340
+O nível gratuito é agregado mensalmente,
 
 32
-00:01:31.970 --> 00:01:35.390
-"maiores empresas e principais agências governamentais
+00:01:08.340 --> 00:01:09.740
+para que você possa executar, por exemplo,
 
 33
-00:01:35.390 --> 00:01:37.930
-"estão usando a AWS para reduzir custos,
+00:01:09.740 --> 00:01:13.150
+30 instâncias EC2 t2.micro por um dia.
 
 34
-00:01:37.930 --> 00:01:41.320
-"tornar-se mais ágil e inovar mais rapidamente."
+00:01:13.150 --> 00:01:17.080
+Ou você pode executar uma instância t2.micro EC2 por 30 dias.
 
 35
-00:01:41.320 --> 00:01:43.454
-E eu concordo com a avaliação deles.
+00:01:17.080 --> 00:01:19.723
+Alguns descontos de nível gratuito, como EC2 ou RDS,
 
 36
-00:01:43.454 --> 00:01:47.240
-Atualmente, a AWS detém cerca de 32% da computação em nuvem
+00:01:19.723 --> 00:01:22.410
+terminar quando a conta tiver 12 meses.
 
 37
-00:01:47.240 --> 00:01:49.660
-participação de mercado, com segundo e terceiro lugar
+00:01:22.410 --> 00:01:24.890
+No entanto, muitos outros descontos de nível gratuito são permanentes
 
 38
-00:01:49.660 --> 00:01:54.099
-indo para Microsoft Azure, aos 19, e Google Cloud, às sete.
+00:01:24.890 --> 00:01:28.620
+como SQS, SNS, Lambda e DynamoDB.
 
 39
-00:01:54.099 --> 00:01:57.190
-A AWS é líder mundial em computação em nuvem,
+00:01:28.620 --> 00:01:30.540
+Portanto, o nível gratuito é realmente incrível
 
 40
-00:01:57.190 --> 00:02:00.660
-com milhões de clientes usando seus produtos.
+00:01:30.540 --> 00:01:32.200
+mas tem alguns riscos.
 
 41
-00:02:00.660 --> 00:02:02.300
-Mas por que eles são o líder?
+00:01:32.200 --> 00:01:33.410
+Você tem que lembrar que isso
 
 42
-00:02:02.300 --> 00:02:04.610
-Bem, eles são os mais antigos do mercado.
+00:01:33.410 --> 00:01:36.530
+é apenas um desconto de cobrança, como um código de cupom.
 
 43
-00:02:04.610 --> 00:02:07.900
-Eles lançaram Amazon EC2, seu serviço de serviço virtual,
+00:01:36.530 --> 00:01:37.930
+Sua conta ainda tem acesso total
 
 44
-00:02:07.900 --> 00:02:10.860
-em 2006, e levou vários anos
+00:01:37.930 --> 00:01:39.490
+a todos os serviços da AWS
 
 45
-00:02:10.860 --> 00:02:14.280
-antes que qualquer outro concorrente da Cloud respondesse.
+00:01:39.490 --> 00:01:41.700
+para que você possa facilmente pagar uma conta que vai muito além
 
 46
-00:02:14.280 --> 00:02:17.930
-Eles continuam iterando e lançando novos serviços, agora,
+00:01:41.700 --> 00:01:43.700
+o Free Tier se você não for cuidadoso.
 
 47
-00:02:17.930 --> 00:02:22.420
-onde atualmente possuem mais de 175 serviços.
+00:01:43.700 --> 00:01:45.940
+Uma coisa que você absolutamente deve fazer é configurar
 
 48
-00:02:22.420 --> 00:02:24.420
-Então vamos dar uma olhada.
+00:01:45.940 --> 00:01:48.857
+alarmes de cobrança, mas percebe que eles têm um atraso de seis horas
 
 49
-00:02:24.420 --> 00:02:27.100
-Esta é a lista da maioria dos seus serviços.
+00:01:48.857 --> 00:01:52.410
+então eles disparam depois que você já está carregando.
 
 50
-00:02:27.100 --> 00:02:29.400
-Não tenho dúvidas de que muitos foram lançados
+00:01:52.410 --> 00:01:55.139
+A principal conclusão é que você deve ter muito cuidado.
 
 51
-00:02:29.400 --> 00:02:31.700
-desde que esta lista foi compilada.
+00:01:55.139 --> 00:01:59.310
+Sempre pense no custo de cada ação que você toma
 
 52
-00:02:31.700 --> 00:02:34.210
-Esses serviços foram criados especificamente
+00:01:59.310 --> 00:02:00.790
+e não assuma que o que você está fazendo
 
 53
-00:02:34.210 --> 00:02:37.330
-para apoiar uma ampla gama de tecnologias, indústrias,
+00:02:00.790 --> 00:02:02.610
+também se encaixa no Free Tier.
 
 54
-00:02:37.330 --> 00:02:40.340
-e casos de uso de um único serviço,
+00:02:02.610 --> 00:02:05.841
+Por exemplo, t2.nano é mais barato que t2.micro
 
 55
-00:02:40.340 --> 00:02:42.870
-que permite armazenar arquivos e recuperá-los,
+00:02:05.841 --> 00:02:08.699
+mas não é elegível para o nível gratuito.
 
 56
-00:02:42.870 --> 00:02:44.910
-para uma Estação Terrestre totalmente gerenciada,
+00:02:08.699 --> 00:02:13.080
+O nível gratuito se aplica apenas a instâncias EC2 t2.micro.
 
 57
-00:02:44.910 --> 00:02:47.130
-que permite controlar satélites.
+00:02:13.080 --> 00:02:16.010
+Ok, outra maneira de colocar a mão na massa é fazendo laboratórios.
 
 58
-00:02:47.130 --> 00:02:48.970
-E eu não estou brincando sobre esse último.
+00:02:16.010 --> 00:02:18.145
+Um laboratório é uma série de etapas a serem executadas.
 
 59
-00:02:48.970 --> 00:02:53.970
-A AWS lançou o AWS Ground Station para o mundo em maio de 2019.
+00:02:18.145 --> 00:02:20.742
+Essas etapas podem ser escritas ou mostradas.
 
 60
-00:02:54.390 --> 00:02:58.140
-Portanto, uma base de clientes muito grande, muitos serviços,
+00:02:20.742 --> 00:02:22.920
+O objetivo do laboratório é demonstrar
 
 61
-00:02:58.140 --> 00:03:00.530
-que você pode fazer quase tudo que você precisa,
+00:02:22.920 --> 00:02:25.970
+e praticar o uso dos serviços da AWS.
 
 62
-00:03:00.530 --> 00:03:03.560
-você pode ver por que o mundo está migrando para a AWS.
+00:02:25.970 --> 00:02:28.454
+O script de laboratório geralmente define um resultado de destino,
 
 63
-00:03:03.560 --> 00:03:06.180
-E uma coisa que ainda nem mencionei é o preço.
+00:02:28.454 --> 00:02:31.444
+e pode incluir restrições ou constrangimentos.
 
 64
-00:03:06.180 --> 00:03:09.160
-A AWS usa preços pré-pagos.
+00:02:31.444 --> 00:02:33.650
+Os laboratórios do curso são scripts incluídos
 
 65
-00:03:09.160 --> 00:03:11.360
-Você pode usar um de seus servidores por um minuto
+00:02:33.650 --> 00:02:34.760
+no curso que você está fazendo
+
+66
+00:02:34.760 --> 00:02:37.160
+e podem ser demonstrados pelo instrutor.
+
+67
+00:02:37.160 --> 00:02:39.040
+Eles estão focados no currículo do curso
+
+68
+00:02:39.040 --> 00:02:40.270
+e destinado a ser executado
+
+69
+00:02:40.270 --> 00:02:42.650
+em sua própria conta pessoal ou da empresa.
+
+70
+00:02:42.650 --> 00:02:44.598
+Normalmente, os laboratórios do curso seguem o nível gratuito,
+
+71
+00:02:44.598 --> 00:02:46.771
+para que possam ser livres para executar ou repetir,
+
+72
+00:02:46.771 --> 00:02:49.513
+mas você assume o risco de qualquer excesso de custo.
+
+73
+00:02:49.513 --> 00:02:51.070
+Você tem que configurar manualmente
+
+74
+00:02:51.070 --> 00:02:53.220
+quaisquer recursos necessários para o laboratório,
+
+75
+00:02:53.220 --> 00:02:54.921
+então os scripts tendem a começar do zero
+
+76
+00:02:54.921 --> 00:02:58.139
+e você também deve derrubar manualmente todos os recursos.
+
+77
+00:02:58.139 --> 00:03:00.390
+Portanto, tome cuidado extra para garantir
+
+78
+00:03:00.390 --> 00:03:03.410
+você não tem recursos esquecidos ou mal configurados.
+
+79
+00:03:03.410 --> 00:03:05.370
+Caso contrário, você pode acabar com um grande custo
+
+80
+00:03:05.370 --> 00:03:06.964
+ou impacto na segurança.
+
+81
+00:03:06.964 --> 00:03:09.287
+Os QwikLabs são outra maneira de colocar a mão na massa.
+
+82
+00:03:09.287 --> 00:03:11.996
+Eles são executados em uma conta de sandbox.
+
+83
+00:03:11.996 --> 00:03:14.100
+Eles estão focados em objetivos de aprendizagem,
+
+84
+00:03:14.100 --> 00:03:15.970
+não certificação especificamente,
+
+85
+00:03:15.970 --> 00:03:18.610
+então eles são excelentes para construir um modelo mental.
+
+86
+00:03:18.610 --> 00:03:21.360
+O custo para fazer QwikLabs é por execução de laboratório
+
+87
+00:03:21.360 --> 00:03:23.730
+ou você pode comprar uma assinatura mensal.
+
+88
+00:03:23.730 --> 00:03:25.300
+De qualquer forma, eles são gerenciados por risco,
+
+89
+00:03:25.300 --> 00:03:27.610
+porque você não paga a conta da AWS
+
+90
+00:03:27.610 --> 00:03:29.010
+que usa esses recursos,
+
+91
+00:03:29.010 --> 00:03:30.647
+você só paga pelos laboratórios.
+
+92
+00:03:30.647 --> 00:03:32.380
+Devido à forma como são configurados,
+
+93
+00:03:32.380 --> 00:03:35.020
+scripts podem usar muitos ou caros recursos
+
+94
+00:03:35.020 --> 00:03:38.251
+sem custos extras, sem problemas com o Free Tier.
+
+95
+00:03:38.251 --> 00:03:40.510
+Mas perceba que, uma vez que você inicia um laboratório,
+
+96
+00:03:40.510 --> 00:03:43.210
+você só tem um certo tempo para terminá-lo.
+
+97
+00:03:43.210 --> 00:03:44.410
+Quando você inicia um laboratório,
+
+98
+00:03:44.410 --> 00:03:47.010
+os recursos são configurados automaticamente para você,
+
+99
+00:03:47.010 --> 00:03:50.600
+portanto, os scripts podem começar em situações muito complexas.
+
+100
+00:03:50.600 --> 00:03:52.520
+Além disso, todos os recursos
+
+101
+00:03:52.520 --> 00:03:53.930
+são derrubados automaticamente,
+
+102
+00:03:53.930 --> 00:03:55.840
+então você não precisa se preocupar com eles.
+
+103
+00:03:55.840 --> 00:03:57.800
+Agora, uma coisa que devo mencionar sobre o QwikLabs
+
+104
+00:03:57.800 --> 00:03:59.070
+é que às vezes eles derrubam
+
+105
+00:03:59.070 --> 00:04:01.040
+laboratórios individuais para manutenção.
+
+106
+00:04:01.040 --> 00:04:03.120
+Portanto, se houver um laboratório específico que você queira fazer,
+
+107
+00:04:03.120 --> 00:04:05.060
+mas você acessa e diz que está offline,
+
+108
+00:04:05.060 --> 00:04:06.180
+só volte em alguns dias
+
+109
+00:04:06.180 --> 00:04:08.250
+e veja se voltou a ficar online.
+
+110
+00:04:08.250 --> 00:04:10.780
+Outra ótima maneira de colocar a mão na massa com a AWS
+
+111
+00:04:10.780 --> 00:04:12.390
+é fazer alguns projetos pessoais.
+
+112
+00:04:12.390 --> 00:04:14.240
+Estas são coisas que você faria por conta própria
+
+113
+00:04:14.240 --> 00:04:15.910
+conta pessoal ou empresarial.
+
+114
+00:04:15.910 --> 00:04:17.180
+Estes também podem resultar em alguns
+
+115
+00:04:17.180 --> 00:04:19.370
+valor do mundo real a longo prazo.
+
+116
+00:04:19.370 --> 00:04:20.612
+Fazendo seu próprio projeto pessoal
+
+117
+00:04:20.612 --> 00:04:22.769
+permite exploração ilimitada,
+
+118
+00:04:22.769 --> 00:04:26.340
+mas é claro que "com grandes poderes vêm grandes responsabilidades".
+
+119
+00:04:26.340 --> 00:04:28.250
+Você também tem risco ilimitado.
+
+120
+00:04:28.250 --> 00:04:30.060
+Risco de excesso de custos ou risco
+
+121
+00:04:30.060 --> 00:04:32.380
+de problemas de segurança não intencionais.
+
+122
+00:04:32.380 --> 00:04:33.670
+Então, que tipo de aprendizado prático
+
+123
+00:04:33.670 --> 00:04:35.860
+fiz no meu caminho para a certificação?
+
+124
+00:04:35.860 --> 00:04:37.160
+Bem, eu certamente usei o QwikLabs
+
+125
+00:04:37.160 --> 00:04:38.326
+bem cedo.
+
+126
+00:04:38.326 --> 00:04:41.190
+Quando eu menos sabia e era o mais arriscado.
+
+127
+00:04:41.190 --> 00:04:42.400
+Foi uma excelente introdução
+
+128
+00:04:42.400 --> 00:04:44.300
+a muitos serviços da AWS que eu nunca
+
+129
+00:04:44.300 --> 00:04:45.731
+teve a chance de usar antes.
+
+130
+00:04:45.731 --> 00:04:48.010
+E eu os usei para construir agressivamente
+
+131
+00:04:48.010 --> 00:04:49.990
+e refinar meu modelo mental.
+
+132
+00:04:49.990 --> 00:04:51.580
+Eu realmente gosto do QwikLabs para pessoas que estão
+
+133
+00:04:51.580 --> 00:04:52.800
+começando com AWS,
+
+134
+00:04:52.800 --> 00:04:54.300
+ou para pessoas que estão tentando ampliar
+
+135
+00:04:54.300 --> 00:04:56.320
+sua experiência para muitos mais serviços.
+
+136
+00:04:56.320 --> 00:04:58.359
+Passei muito tempo fazendo esses laboratórios,
+
+137
+00:04:58.359 --> 00:05:00.652
+e eu fiz um monte de diferentes.
+
+138
+00:05:00.652 --> 00:05:02.570
+Eu recomendo fortemente que você considere
+
+139
+00:05:02.570 --> 00:05:04.660
+assinando o QwikLabs por um mês.
+
+140
+00:05:04.660 --> 00:05:07.140
+A assinatura mensal pode ser um excelente valor
+
+141
+00:05:07.140 --> 00:05:08.270
+se você realmente usá-lo,
+
+142
+00:05:08.270 --> 00:05:10.660
+mas será um desperdício de dinheiro se ficar parado.
+
+143
+00:05:10.660 --> 00:05:12.330
+Portanto, certifique-se de reservar um tempo
+
+144
+00:05:12.330 --> 00:05:15.180
+para se concentrar nisso para obter um bom valor a partir dele.
+
+145
+00:05:15.180 --> 00:05:17.350
+Pessoalmente, tirei vários dias de folga do trabalho
+
+146
+00:05:17.350 --> 00:05:19.450
+e fez Qwiklabs de manhã à noite.
+
+147
+00:05:19.450 --> 00:05:21.840
+Outra coisa que fiz para colocar mais a mão na massa
+
+148
+00:05:21.840 --> 00:05:23.950
+eram projetos pessoais, e eu fiz mais desses
+
+149
+00:05:23.950 --> 00:05:25.150
+como eu fui junto.
+
+150
+00:05:25.150 --> 00:05:26.260
+Por exemplo, eu juntei
+
+151
+00:05:26.260 --> 00:05:29.010
+um site WordPress com EC2 e RDS.
+
+152
+00:05:29.010 --> 00:05:31.790
+Eu construí alguns VPCs, incluindo NATs, bastiões,
+
+153
+00:05:31.790 --> 00:05:35.440
+Endpoints S3, IPs elásticos, etc.
+
+154
+00:05:35.440 --> 00:05:38.040
+Rota 53 incluindo zonas públicas e privadas,
+
+155
+00:05:38.040 --> 00:05:40.750
+migrando DNS de um registrador externo.
+
+156
+00:05:40.750 --> 00:05:43.750
+Configurando o CloudFront para origens S3 e EC2
+
+157
+00:05:43.750 --> 00:05:45.500
+e ter um WAF anexado.
+
+158
+00:05:45.500 --> 00:05:48.120
+Usando CloudFormation para configurar recursos.
+
+159
+00:05:48.120 --> 00:05:50.510
+Usando Lambda, Elastic Beanstalk,
+
+160
+00:05:50.510 --> 00:05:52.100
+e um monte de outras coisas.
+
+161
+00:05:52.100 --> 00:05:53.930
+Uma vez eu estava testando a atualização "YUM"
+
+162
+00:05:53.930 --> 00:05:56.770
+em uma sub-rede que não tinha roteamento para nenhum gateway de internet
+
+163
+00:05:56.770 --> 00:05:59.200
+ou NAT, estava completamente oculto.
+
+164
+00:05:59.200 --> 00:06:02.020
+Mas fiquei chocado ao ver que a atualização "YUM" realmente funcionou.
+
+165
+00:06:02.020 --> 00:06:04.520
+Eu estava realmente confuso até descobrir
+
+166
+00:06:04.520 --> 00:06:07.610
+que a atualização "YUM" no EC2 configure para usar
+
+167
+00:06:07.610 --> 00:06:09.570
+um repositório S3 "YUM".
+
+168
+00:06:09.570 --> 00:06:12.377
+E adicionei roteamento a um endpoint S3.
+
+169
+00:06:12.377 --> 00:06:14.250
+agora nunca vou esquecer
+
+170
+00:06:14.250 --> 00:06:17.342
+como a atualização "YUM" e os endpoints S3 VPC funcionam.
+
+171
+00:06:17.342 --> 00:06:19.120
+Mas estes são apenas alguns dos exemplos
+
+172
+00:06:19.120 --> 00:06:21.510
+das coisas que fiz quando comecei a trabalhar.
+
+173
+00:06:21.510 --> 00:06:22.780
+Tudo bem, se você tiver alguma dúvida
+
+174
+00:06:22.780 --> 00:06:23.613
+por favor, me avise.
+
+175
+00:06:23.613 --> 00:06:24.960
+Se não, sinta-se à vontade para seguir em frente
+
+176
+00:06:24.960 --> 00:06:26.510
+para a próxima palestra, obrigado.
